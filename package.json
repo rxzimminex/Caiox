@@ -1,0 +1,16 @@
+{
+  "name": "caiox-portfolio",
+  "version": "1.0.0",
+  "description": "Portfólio CaioX - HTML, CSS, Node.js, TypeScript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc main.ts --outFile main.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+} 

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaioX - Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Caio<span class="highlight">X</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="discord-icon">
+      <a href="https://discord.com" target="_blank" rel="noopener" title="Discord"><svg height="32" width="32" viewBox="0 0 24 24" fill="#a259ff"><path d="M20.317 4.369a19.791 19.791 0 0 0-4.885-1.515.07.07 0 0 0-.073.035c-.211.375-.444.864-.608 1.249-1.844-.276-3.68-.276-5.486 0-.164-.393-.405-.874-.617-1.249a.07.07 0 0 0-.073-.035A19.736 19.736 0 0 0 3.677 4.369a.064.064 0 0 0-.03.027C.533 9.09-.32 13.579.099 18.021a.08.08 0 0 0 .031.056c2.052 1.507 4.041 2.422 5.992 3.029a.077.077 0 0 0 .084-.027c.461-.63.873-1.295 1.226-1.994a.076.076 0 0 0-.041-.104c-.652-.247-1.27-.549-1.872-.892a.077.077 0 0 1-.008-.127c.126-.094.252-.192.371-.291a.07.07 0 0 1 .073-.01c3.927 1.793 8.18 1.793 12.061 0a.07.07 0 0 1 .073.009c.12.099.245.198.372.292a.077.077 0 0 1-.006.127 12.298 12.298 0 0 1-1.873.891.076.076 0 0 0-.04.105c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028c1.961-.607 3.95-1.522 6.002-3.029a.077.077 0 0 0 .031-.055c.5-5.177-.838-9.637-3.548-13.625a.061.061 0 0 0-.03-.028zM8.02 15.331c-1.183 0-2.156-1.085-2.156-2.419 0-1.333.955-2.418 2.156-2.418 1.21 0 2.175 1.094 2.156 2.418 0 1.334-.955 2.419-2.156 2.419zm7.974 0c-1.183 0-2.156-1.085-2.156-2.419 0-1.333.955-2.418 2.156-2.418 1.21 0 2.175 1.094 2.156 2.418 0 1.334-.946 2.419-2.156 2.419z"/></svg></a>
+    </div>
+    <button class="toggle-theme" id="toggle-theme" title="Alternar tema"><span class="icon-moon"></span></button>
+  </nav>
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-left">
+        <span class="dev-title">DESENVOLVEDOR DE BOTS</span>
+        <h1>Caio<span class="highlight">X</span></h1>
+        <p class="hero-desc">Sou desenvolvedor focado na criação de bots para Discord. Trabalho principalmente com JavaScript e tenho conhecimentos sólidos em Node.js, HTML e CSS. Sempre busco aprender mais e criar soluções úteis de forma prática. Confira minhas habilidades abaixo.</p>
+        <div class="hero-btns">
+          <a href="#projetos" class="btn btn-primary">Meus Projetos</a>
+          <a href="#contato" class="btn btn-outline">Contato</a>
+          <a href="curriculo.pdf" download class="btn btn-outline btn-cv">Download CV</a>
+        </div>
+        <div class="hero-stats">
+          <div><span class="stat-num">1.5+</span><span class="stat-label">Anos de Experiência</span></div>
+          <div><span class="stat-num">20+</span><span class="stat-label">Projetos Completos</span></div>
+          <div><span class="stat-num">5+</span><span class="stat-label">Tecnologias</span></div>
+          <div><span class="stat-num">100%</span><span class="stat-label">Dedicação</span></div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="discord-card esticada">
+          <div class="discord-card-header">
+            <div class="discord-status"><span class="status-dot"></span>Disponível para projetos</div>
+            <div class="discord-icons">
+              <span class="icon-discord"></span>
+              <span class="icon-node"></span>
+            </div>
+          </div>
+          <h2>Discord Bots</h2>
+          <span class="discord-role">Especialista</span>
+          <div class="discord-grid esticada">
+            <div class="discord-grid-item purple"><span class="icon-branch"></span>20+<span class="item-label">Projetos</span></div>
+            <div class="discord-grid-item blue"><span class="icon-discordjs"></span>Esp.<span class="item-label">Discord.js</span></div>
+            <div class="discord-grid-item green"><span class="icon-tag"></span>10+<span class="item-label">Vendas</span></div>
+            <div class="discord-grid-item yellow"><span class="icon-clock"></span>1.5 Anos<span class="item-label">Experiência</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="sobre-section">
+      <h1>Sobre Mim</h1>
+      <div class="sobre-card">
+        Olá! Sou o CaioX, desenvolvedor apaixonado por criar soluções para Discord. Minha especialidade está no desenvolvimento de bots funcionais e intuitivos, utilizando as melhores práticas e tecnologias atuais. Tenho ampla experiência com a API do Discord e estou sempre me atualizando sobre as novas funcionalidades e possibilidades da plataforma.
+      </div>
+    </section>
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="habilidades-section">
+      <h1>Habilidades</h1>
+      <div class="habilidades-grid">
+        <div class="habilidade-card js">
+          <div class="habilidade-icon js"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/> </div>
+          <div class="habilidade-info">
+            <span class="habilidade-percent">85%</span>
+            <span class="habilidade-title">JavaScript</span>
+            <span class="habilidade-nivel up">Avançado</span>
+            <div class="habilidade-bar"><div class="bar js"></div></div>
+          </div>
+        </div>
+        <div class="habilidade-card htmlcss">
+          <div class="habilidade-icon htmlcss"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="width:22px;vertical-align:middle;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="width:22px;vertical-align:middle;"/> </div>
+          <div class="habilidade-info">
+            <span class="habilidade-percent">80%</span>
+            <span class="habilidade-title">HTML & CSS</span>
+            <span class="habilidade-nivel up">Avançado</span>
+            <div class="habilidade-bar"><div class="bar htmlcss"></div></div>
+          </div>
+        </div>
+        <div class="habilidade-card node">
+          <div class="habilidade-icon node"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"/> </div>
+          <div class="habilidade-info">
+            <span class="habilidade-percent">65%</span>
+            <span class="habilidade-title">Node.js</span>
+            <span class="habilidade-nivel">Intermediário</span>
+            <div class="habilidade-bar"><div class="bar node"></div></div>
+          </div>
+        </div>
+        <div class="habilidade-card mongo">
+          <div class="habilidade-icon mongo"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/> </div>
+          <div class="habilidade-info">
+            <span class="habilidade-percent">75%</span>
+            <span class="habilidade-title">MongoDB/JSON</span>
+            <span class="habilidade-nivel up">Avançado</span>
+            <div class="habilidade-bar"><div class="bar mongo"></div></div>
+          </div>
+        </div>
+        <div class="habilidade-card react">
+          <div class="habilidade-icon react"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js"/> </div>
+          <div class="habilidade-info">
+            <span class="habilidade-percent">40%</span>
+            <span class="habilidade-title">React.js</span>
+            <span class="habilidade-nivel learning">Aprendendo</span>
+            <div class="habilidade-bar"><div class="bar react"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CERTIFICADOS -->
+    <section id="certificados" class="certificados-section">
+      <h1>Certificados & Conquistas</h1>
+      <div class="certificados-grid">
+        <div class="certificado-card">
+          <div class="certificado-icon certificado-js"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/> </div>
+          <div class="certificado-info">
+            <span class="certificado-title">JavaScript Avançado</span>
+            <span class="certificado-org">Alura</span>
+            <span class="certificado-ano">2023</span>
+          </div>
+        </div>
+        <div class="certificado-card">
+          <div class="certificado-icon certificado-node"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"/> </div>
+          <div class="certificado-info">
+            <span class="certificado-title">Node.js Essencial</span>
+            <span class="certificado-org">Rocketseat</span>
+            <span class="certificado-ano">2022</span>
+          </div>
+        </div>
+        <div class="certificado-card">
+          <div class="certificado-icon certificado-mongo"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/> </div>
+          <div class="certificado-info">
+            <span class="certificado-title">MongoDB para Devs</span>
+            <span class="certificado-org">MongoDB University</span>
+            <span class="certificado-ano">2023</span>
+          </div>
+        </div>
+        <div class="certificado-card">
+          <div class="certificado-icon certificado-discord"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" alt="Discord.js"/> </div>
+          <div class="certificado-info">
+            <span class="certificado-title">Especialista em Bots Discord</span>
+            <span class="certificado-org">Udemy</span>
+            <span class="certificado-ano">2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJETOS -->
+    <section id="projetos" class="projetos-section">
+      <h1>Projetos</h1>
+      <div class="projetos-grid">
+        <div class="projeto-card">
+          <div class="icon tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/></div>
+          <h2>Sistema de vendas de chaves</h2>
+          <p>Bot para Discord que gerencia vendas com sistema de chaves de ativação e chaves de cargos</p>
+          <div class="tags">
+            <span>JavaScript</span><span>Node.js</span><span>JSON</span>
+          </div>
+        </div>
+        <div class="projeto-card">
+          <div class="icon shield"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" alt="Discord.js"/></div>
+          <h2>Bot de moderação completo</h2>
+          <p>Sistema completo de moderação para servidores Discord com logs, comandos intuitivos e muito mais</p>
+          <div class="tags">
+            <span>JavaScript</span><span>Discord.js</span><span>JSON</span>
+          </div>
+        </div>
+        <div class="projeto-card">
+          <div class="icon dashboard"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"/></div>
+          <h2>Painel de controle em Next.js</h2>
+          <p>Dashboard administrativo para gerenciar bots e sistemas onlines</p>
+          <div class="tags">
+            <span>React</span><span>Next.js</span><span>JSON</span>
+          </div>
+        </div>
+        <div class="projeto-card">
+          <div class="icon music"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"/></div>
+          <h2>Bot de música para Discord</h2>
+          <p>Bot de musica utilizando api do youtube entre outros aplicativos de musica</p>
+          <div class="tags">
+            <span>JavaScript</span><span>Node.js</span><span>MongoDB</span>
+          </div>
+        </div>
+        <div class="projeto-card">
+          <div class="icon db"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/></div>
+          <h2>Sistema de níveis e economia</h2>
+          <p>Sistema de economia com sistemas de roubo, banco e trabalho</p>
+          <div class="tags">
+            <span>JavaScript</span><span>Discord.js</span><span>MongoDB</span>
+          </div>
+        </div>
+        <div class="projeto-card">
+          <div class="icon ticket"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"/></div>
+          <h2>Sistema de tickets</h2>
+          <p>Sistema de suporte 100% configuravel e transcript em Website</p>
+          <div class="tags">
+            <span>TypeScript</span><span>Discord.js</span><span>MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA -->
+    <section class="cta-section" id="contato">
+      <h2>Vamos criar algo incrível?</h2>
+      <p>Entre em contato comigo pelo Discord para discutirmos seu próximo projeto</p>
+      <a href="https://discord.com" target="_blank" class="cta-btn"><span class="discord-cta-icon"></span>Fale comigo no Discord</a>
+    </section>
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="como-funciona-section">
+      <h1>Como Funciona</h1>
+      <div class="como-funciona-grid">
+        <div class="funciona-card">
+          <div class="funciona-icon briefing"></div>
+          <h2>Briefing</h2>
+          <p>Entendo sua necessidade, objetivos e ideias para criar a melhor solução personalizada.</p>
+        </div>
+        <div class="funciona-card">
+          <div class="funciona-icon dev"></div>
+          <h2>Desenvolvimento</h2>
+          <p>Desenvolvo o bot ou sistema com as melhores práticas, mantendo você atualizado sobre o progresso.</p>
+        </div>
+        <div class="funciona-card">
+          <div class="funciona-icon entrega"></div>
+          <h2>Entrega</h2>
+          <p>Faço a entrega do projeto pronto, com testes e ajustes finais para garantir qualidade.</p>
+        </div>
+        <div class="funciona-card">
+          <div class="funciona-icon suporte"></div>
+          <h2>Suporte</h2>
+          <p>Ofereço suporte pós-entrega para dúvidas, melhorias ou manutenção do seu projeto.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-socials">
+        <a href="https://github.com/seuusuario" target="_blank" title="GitHub" class="footer-icon github"></a>
+        <a href="https://linkedin.com/in/seuusuario" target="_blank" title="LinkedIn" class="footer-icon linkedin"></a>
+        <a href="https://discord.com" target="_blank" title="Discord" class="footer-icon discord"></a>
+      </div>
+      <div class="footer-copy">&copy; 2024 CaioX. Todos os direitos reservados.</div>
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+</html> 
